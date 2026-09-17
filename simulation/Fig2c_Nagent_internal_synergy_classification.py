@@ -213,7 +213,7 @@ def generalized_internal_synergy_simulation():
 
     N_iteration = 2500
 
-    ov_size = 50
+    ov_size = 100
 
     ov_node = np.round(
         np.linspace(
@@ -325,7 +325,7 @@ def generalized_internal_synergy_simulation():
 
     elif simulation_mode == "matrix":
 
-        pw_size = 50
+        pw_size = 100
 
         prob_wire = np.linspace(
             0,

@@ -158,7 +158,7 @@ for p_s in prob_list:
 
     path = (
         data_dir
-        / f"syn_result_ps{p_s}.csv"
+        / f"syn_result_ps{p_s}_boundary.csv"
     )
 
     df = pd.read_csv(

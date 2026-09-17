@@ -17,8 +17,8 @@ rewiring probabilities p.
 
 Input:
     visualization_data/Fig.4/random_walk/
-        syn_result_2agent_p0.0.csv
-        syn_result_2agent_p0.0001.csv
+        syn_result_2agent_ps0.0.csv
+        syn_result_2agent_ps0.0001.csv
         ...
 
 CSV format:
@@ -201,7 +201,7 @@ for p_s in prob_list:
 
     data_path = (
         data_dir
-        / f"syn_result_2agent_p{p_s}.csv"
+        / f"syn_result_2agent_ps{p_s}.csv"
     )
 
     df = pd.read_csv(

@@ -280,8 +280,8 @@ def two_agent_internal_synergy_simulation():
     sub2_size = 100
 
     N_iteration = 2500
-    pw_size = 50
-    ov_size = 50
+    pw_size = 100
+    ov_size = 100
 
     prob_wire = np.linspace(0, 1, pw_size)
 
