@@ -722,7 +722,7 @@ def generalized_external_synergy_simulation():
         mean_path = os.path.join(
             output_dir,
             f"{network_label}_mean_"
-            f"{N_agents}p_heatmap.csv"
+            f"{N_agents}agent_heatmap.csv"
         )
 
         sem_path = os.path.join(
